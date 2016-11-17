@@ -10,6 +10,11 @@
 		2C05D4571DDD4ED300B1CFDB /* VisibleTouchViewSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C05D44D1DDD4ED300B1CFDB /* VisibleTouchViewSwift.framework */; };
 		2C05D45C1DDD4ED300B1CFDB /* VisibleTouchViewSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05D45B1DDD4ED300B1CFDB /* VisibleTouchViewSwiftTests.swift */; };
 		2C05D45E1DDD4ED300B1CFDB /* VisibleTouchViewSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C05D4501DDD4ED300B1CFDB /* VisibleTouchViewSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C05D4681DDD51A400B1CFDB /* VisibleTouchWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05D4671DDD51A400B1CFDB /* VisibleTouchWindow.swift */; };
+		2C05D46A1DDD565A00B1CFDB /* VisibleTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05D4691DDD565A00B1CFDB /* VisibleTouchView.swift */; };
+		2C05D46C1DDD5FDE00B1CFDB /* TouchPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05D46B1DDD5FDE00B1CFDB /* TouchPointView.swift */; };
+		9A68629A4430CDB5FA791F9A /* Pods_VisibleTouchViewSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D96557FE4ACCB54D5CC4A3B /* Pods_VisibleTouchViewSwift.framework */; };
+		FD1650214BA06A9329EE6C15 /* Pods_VisibleTouchViewSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A7A213C1326DA9239C7F09 /* Pods_VisibleTouchViewSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,15 @@
 		2C05D4561DDD4ED300B1CFDB /* VisibleTouchViewSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisibleTouchViewSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C05D45B1DDD4ED300B1CFDB /* VisibleTouchViewSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisibleTouchViewSwiftTests.swift; sourceTree = "<group>"; };
 		2C05D45D1DDD4ED300B1CFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C05D4671DDD51A400B1CFDB /* VisibleTouchWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisibleTouchWindow.swift; sourceTree = "<group>"; };
+		2C05D4691DDD565A00B1CFDB /* VisibleTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisibleTouchView.swift; sourceTree = "<group>"; };
+		2C05D46B1DDD5FDE00B1CFDB /* TouchPointView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchPointView.swift; sourceTree = "<group>"; };
+		419C58FE1B350595E5647F39 /* Pods-VisibleTouchViewSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisibleTouchViewSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VisibleTouchViewSwift/Pods-VisibleTouchViewSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		6D96557FE4ACCB54D5CC4A3B /* Pods_VisibleTouchViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisibleTouchViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A7A213C1326DA9239C7F09 /* Pods_VisibleTouchViewSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisibleTouchViewSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D6A3724690738D2937F159 /* Pods-VisibleTouchViewSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisibleTouchViewSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VisibleTouchViewSwiftTests/Pods-VisibleTouchViewSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97765A2A42AAC3BADCF2FEA1 /* Pods-VisibleTouchViewSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisibleTouchViewSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VisibleTouchViewSwiftTests/Pods-VisibleTouchViewSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		B98E0081123D1B970FA9E6D8 /* Pods-VisibleTouchViewSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisibleTouchViewSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-VisibleTouchViewSwift/Pods-VisibleTouchViewSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A68629A4430CDB5FA791F9A /* Pods_VisibleTouchViewSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +59,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C05D4571DDD4ED300B1CFDB /* VisibleTouchViewSwift.framework in Frameworks */,
+				FD1650214BA06A9329EE6C15 /* Pods_VisibleTouchViewSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		049868C9A388C242134A390B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				419C58FE1B350595E5647F39 /* Pods-VisibleTouchViewSwift.debug.xcconfig */,
+				B98E0081123D1B970FA9E6D8 /* Pods-VisibleTouchViewSwift.release.xcconfig */,
+				94D6A3724690738D2937F159 /* Pods-VisibleTouchViewSwiftTests.debug.xcconfig */,
+				97765A2A42AAC3BADCF2FEA1 /* Pods-VisibleTouchViewSwiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2C05D4431DDD4ED300B1CFDB = {
 			isa = PBXGroup;
 			children = (
 				2C05D44F1DDD4ED300B1CFDB /* VisibleTouchViewSwift */,
 				2C05D45A1DDD4ED300B1CFDB /* VisibleTouchViewSwiftTests */,
 				2C05D44E1DDD4ED300B1CFDB /* Products */,
+				049868C9A388C242134A390B /* Pods */,
+				EA2FDED447F4C1C123C996D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +102,9 @@
 			children = (
 				2C05D4501DDD4ED300B1CFDB /* VisibleTouchViewSwift.h */,
 				2C05D4511DDD4ED300B1CFDB /* Info.plist */,
+				2C05D4671DDD51A400B1CFDB /* VisibleTouchWindow.swift */,
+				2C05D4691DDD565A00B1CFDB /* VisibleTouchView.swift */,
+				2C05D46B1DDD5FDE00B1CFDB /* TouchPointView.swift */,
 			);
 			path = VisibleTouchViewSwift;
 			sourceTree = "<group>";
@@ -84,6 +116,15 @@
 				2C05D45D1DDD4ED300B1CFDB /* Info.plist */,
 			);
 			path = VisibleTouchViewSwiftTests;
+			sourceTree = "<group>";
+		};
+		EA2FDED447F4C1C123C996D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D96557FE4ACCB54D5CC4A3B /* Pods_VisibleTouchViewSwift.framework */,
+				77A7A213C1326DA9239C7F09 /* Pods_VisibleTouchViewSwiftTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C05D4611DDD4ED300B1CFDB /* Build configuration list for PBXNativeTarget "VisibleTouchViewSwift" */;
 			buildPhases = (
+				28102F12F155E49203DC3FF0 /* [CP] Check Pods Manifest.lock */,
 				2C05D4481DDD4ED300B1CFDB /* Sources */,
 				2C05D4491DDD4ED300B1CFDB /* Frameworks */,
 				2C05D44A1DDD4ED300B1CFDB /* Headers */,
 				2C05D44B1DDD4ED300B1CFDB /* Resources */,
+				D7BE6256650A023687BD80E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C05D4641DDD4ED300B1CFDB /* Build configuration list for PBXNativeTarget "VisibleTouchViewSwiftTests" */;
 			buildPhases = (
+				BA7322210B3C660282E0940A /* [CP] Check Pods Manifest.lock */,
 				2C05D4521DDD4ED300B1CFDB /* Sources */,
 				2C05D4531DDD4ED300B1CFDB /* Frameworks */,
 				2C05D4541DDD4ED300B1CFDB /* Resources */,
+				1C906C970962E9C6D2BE59F6 /* [CP] Embed Pods Frameworks */,
+				9BF9D7E1E73F32E86DF65E59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +194,7 @@
 				TargetAttributes = {
 					2C05D44C1DDD4ED300B1CFDB = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					2C05D4551DDD4ED300B1CFDB = {
@@ -191,11 +238,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C906C970962E9C6D2BE59F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VisibleTouchViewSwiftTests/Pods-VisibleTouchViewSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28102F12F155E49203DC3FF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BF9D7E1E73F32E86DF65E59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VisibleTouchViewSwiftTests/Pods-VisibleTouchViewSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA7322210B3C660282E0940A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7BE6256650A023687BD80E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VisibleTouchViewSwift/Pods-VisibleTouchViewSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C05D4481DDD4ED300B1CFDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C05D4681DDD51A400B1CFDB /* VisibleTouchWindow.swift in Sources */,
+				2C05D46C1DDD5FDE00B1CFDB /* TouchPointView.swift in Sources */,
+				2C05D46A1DDD565A00B1CFDB /* VisibleTouchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +447,9 @@
 		};
 		2C05D4621DDD4ED300B1CFDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419C58FE1B350595E5647F39 /* Pods-VisibleTouchViewSwift.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,13 +461,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fm.treble.VisibleTouchViewSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		2C05D4631DDD4ED300B1CFDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98E0081123D1B970FA9E6D8 /* Pods-VisibleTouchViewSwift.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,7 +488,9 @@
 		};
 		2C05D4651DDD4ED300B1CFDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D6A3724690738D2937F159 /* Pods-VisibleTouchViewSwiftTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = VisibleTouchViewSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fm.treble.VisibleTouchViewSwiftTests;
@@ -366,7 +501,9 @@
 		};
 		2C05D4661DDD4ED300B1CFDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97765A2A42AAC3BADCF2FEA1 /* Pods-VisibleTouchViewSwiftTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = VisibleTouchViewSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fm.treble.VisibleTouchViewSwiftTests;
@@ -394,6 +531,7 @@
 				2C05D4631DDD4ED300B1CFDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C05D4641DDD4ED300B1CFDB /* Build configuration list for PBXNativeTarget "VisibleTouchViewSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +540,7 @@
 				2C05D4661DDD4ED300B1CFDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
