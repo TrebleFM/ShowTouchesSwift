@@ -5,6 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 ### Added
-- Created bare-bones structure 
+- Created bare-bones structure
+- Implemented VisibleTouchWindow
 
 [Unreleased]: https://github.com/TrebleFM/VisibleTouchViewSwift/tree/develop

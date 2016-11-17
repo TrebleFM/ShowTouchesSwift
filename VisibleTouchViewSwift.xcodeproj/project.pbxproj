@@ -13,6 +13,7 @@
 		2C05D4681DDD51A400B1CFDB /* VisibleTouchWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05D4671DDD51A400B1CFDB /* VisibleTouchWindow.swift */; };
 		2C05D46A1DDD565A00B1CFDB /* VisibleTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05D4691DDD565A00B1CFDB /* VisibleTouchView.swift */; };
 		2C05D46C1DDD5FDE00B1CFDB /* TouchPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05D46B1DDD5FDE00B1CFDB /* TouchPointView.swift */; };
+		2C05D46E1DDD71B600B1CFDB /* UITouch+TouchPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C05D46D1DDD71B600B1CFDB /* UITouch+TouchPointView.swift */; };
 		9A68629A4430CDB5FA791F9A /* Pods_VisibleTouchViewSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D96557FE4ACCB54D5CC4A3B /* Pods_VisibleTouchViewSwift.framework */; };
 		FD1650214BA06A9329EE6C15 /* Pods_VisibleTouchViewSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A7A213C1326DA9239C7F09 /* Pods_VisibleTouchViewSwiftTests.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		2C05D4671DDD51A400B1CFDB /* VisibleTouchWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisibleTouchWindow.swift; sourceTree = "<group>"; };
 		2C05D4691DDD565A00B1CFDB /* VisibleTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisibleTouchView.swift; sourceTree = "<group>"; };
 		2C05D46B1DDD5FDE00B1CFDB /* TouchPointView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchPointView.swift; sourceTree = "<group>"; };
+		2C05D46D1DDD71B600B1CFDB /* UITouch+TouchPointView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITouch+TouchPointView.swift"; sourceTree = "<group>"; };
 		419C58FE1B350595E5647F39 /* Pods-VisibleTouchViewSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisibleTouchViewSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VisibleTouchViewSwift/Pods-VisibleTouchViewSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		6D96557FE4ACCB54D5CC4A3B /* Pods_VisibleTouchViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisibleTouchViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A7A213C1326DA9239C7F09 /* Pods_VisibleTouchViewSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisibleTouchViewSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,7 @@
 				2C05D4671DDD51A400B1CFDB /* VisibleTouchWindow.swift */,
 				2C05D4691DDD565A00B1CFDB /* VisibleTouchView.swift */,
 				2C05D46B1DDD5FDE00B1CFDB /* TouchPointView.swift */,
+				2C05D46D1DDD71B600B1CFDB /* UITouch+TouchPointView.swift */,
 			);
 			path = VisibleTouchViewSwift;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				2C05D4681DDD51A400B1CFDB /* VisibleTouchWindow.swift in Sources */,
 				2C05D46C1DDD5FDE00B1CFDB /* TouchPointView.swift in Sources */,
 				2C05D46A1DDD565A00B1CFDB /* VisibleTouchView.swift in Sources */,
+				2C05D46E1DDD71B600B1CFDB /* UITouch+TouchPointView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
