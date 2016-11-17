@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "VisibleTouchViewSwift"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "Show finger touches on the screen"
 
   s.description  = "Show finger touches on the screen using either a UIView or UIWindow. Useful for app preview videos, live product demos, and more."
