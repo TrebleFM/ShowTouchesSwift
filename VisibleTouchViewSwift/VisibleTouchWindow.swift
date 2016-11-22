@@ -18,7 +18,6 @@ public class VisibleTouchWindow: UIWindow {
 
     public var isShowTouchesEnabled: Bool = true
     public var appearAnimationDuration: Double = 0.1
-    public var movementAnimationDuration: Double = 0.1
     public var disappearAnimationDuration: Double = 0.1
     private let pointerSize = CGSize(width: 50, height: 50)
 
@@ -90,9 +89,7 @@ public class VisibleTouchWindow: UIWindow {
                     touchFrame.origin.y = point.y - pointerSize.height / 2
 
                     // Animate movement
-                    UIView.animate(withDuration: movementAnimationDuration) {
-                        touchPointView.frame = touchFrame
-                    }
+                    touchPointView.frame = touchFrame
                 }
                 break
 
