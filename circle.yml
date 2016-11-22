@@ -4,4 +4,4 @@ machine:
 
 test:
   override:
-    - set -o pipefail && xcodebuild -workspace 'VisibleTouchViewSwift.xcworkspace' -scheme 'VisibleTouchViewSwift' clean build test -sdk iphonesimulator -destination "id='F08BA729-6AD2-42DF-A210-34DC8D990011'" CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= PROVISIONING_PROFILE= | tee $CIRCLE_ARTIFACTS/xcode_raw.log | xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
+    - set -o pipefail && xcodebuild -workspace 'VisibleTouchViewSwift.xcworkspace' -scheme 'VisibleTouchViewSwift' clean build test -sdk iphonesimulator -destination id='F08BA729-6AD2-42DF-A210-34DC8D990011' CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= PROVISIONING_PROFILE= | tee $CIRCLE_ARTIFACTS/xcode_raw.log | xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
