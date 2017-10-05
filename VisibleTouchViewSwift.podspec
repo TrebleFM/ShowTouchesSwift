@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.description  = "Show finger touches on the screen using either a UIView or UIWindow. Useful for app preview videos, live product demos, and more."
 
-  s.homepage     = "https://github.com/TrebleFM/VisibleTouchViewSwift"
+  s.homepage     = "https://github.com/bchrobot/VisibleTouchViewSwift"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
