@@ -1,9 +1,8 @@
 # VisibleTouchViewSwift
 
-[![Version](http://img.shields.io/cocoapods/v/VisibleTouchViewSwift.svg)](http://cocoapods.org/?q=VisibleTouchViewSwift)
-[![GitHub release](https://img.shields.io/github/release/TrebleFM/VisibleTouchViewSwift.svg)](https://github.com/TrebleFM/VisibleTouchViewSwift/releases)
-![Swift 3.0](https://img.shields.io/badge/Swift-3.0-green.svg)
-![platforms](https://img.shields.io/badge/platforms-iOS%20-lightgrey.svg)
+[![Version](https://img.shields.io/cocoapods/v/VisibleTouchViewSwift.svg?style=flat)](http://cocoapods.org/pods/VisibleTouchViewSwift)
+[![License](https://img.shields.io/cocoapods/l/VisibleTouchViewSwift.svg?style=flat)](http://cocoapods.org/pods/VisibleTouchViewSwift)
+[![Platform](https://img.shields.io/cocoapods/p/VisibleTouchViewSwift.svg?style=flat)](http://cocoapods.org/pods/VisibleTouchViewSwift)
 
 > Show finger touches on the screen using either a UIView or UIWindow. Useful for app preview videos, live product demos, and more. Based on [EUMTouchPointView](https://github.com/eumlab/EUMTouchPointView).
 
@@ -45,7 +44,7 @@ See `CHANGELOG.md`
 
 ## Author
 
-Benjamin Chrobot (@bchrobot), ben@treble.fm
+Benjamin Chrobot (@bchrobot), benjamin.blair.chrobot@gmail.com
 
 ## License
 
