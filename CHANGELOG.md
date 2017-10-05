@@ -11,5 +11,5 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Created bare-bones structure
 - Implemented VisibleTouchWindow
 
-[Unreleased]: https://github.com/TrebleFM/VisibleTouchViewSwift/compare/0.1.0...HEAD
-[0.1.0]: https://github.com/TrebleFM/VisibleTouchViewSwift/compare/0.0.1...0.1.0
+[Unreleased]: https://github.com/bchrobot/VisibleTouchViewSwift/compare/0.1.0...HEAD
+[0.1.0]: https://github.com/bchrobot/VisibleTouchViewSwift/compare/0.0.1...0.1.0
